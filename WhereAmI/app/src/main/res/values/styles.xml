@@ -1,0 +1,73 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!-- This is to style the ImageLayout. -->
+    <style name="ImageViewLayout" tools:targetApi="jelly_bean">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+    <!-- This is to style the TitleText. -->
+    <style name="TitleText" tools:targetApi="jelly_bean">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:background">#FF9800</item>
+        <item name="android:padding">13dp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">#424242</item>
+    </style>
+    <!-- This is to style the InfoText. -->
+    <style name="InfoText" tools:targetApi="jelly_bean">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">#757575</item>
+    </style>
+    <!-- This is to style the QuestionText. -->
+    <style name="QuestionText" tools:targetApi="jelly_bean">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">#757575</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <!-- This is to style the SubmitButton. -->
+    <style name="SubmitButton" tools:targetApi="jelly_bean">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:textColor">#757575</item>
+        <item name="android:background">#FF9800</item>
+    </style>
+    <!-- This is to style the RadioButton. -->
+    <style name="RadioButton" tools:targetApi="jelly_bean">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:textColor">#757575</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+    <!-- This is to style the CheckBox. -->
+    <style name="CheckBox" tools:targetApi="jelly_bean">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:textColor">#757575</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+</resources>

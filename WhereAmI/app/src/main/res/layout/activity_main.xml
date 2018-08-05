@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E0E0E0"
+        android:orientation="vertical">
+
+        <!-- This is the India section. -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/ImageViewLayout"
+                android:contentDescription="@null"
+                android:src="@drawable/india" />
+
+            <TextView
+                style="@style/TitleText"
+                android:text="@string/india_title" />
+
+            <TextView
+                style="@style/InfoText"
+                android:text="@string/india_info" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:orientation="vertical"
+                tools:ignore="RtlSymmetry">
+
+                <TextView
+                    style="@style/QuestionText"
+                    android:text="@string/india_question"
+                    tools:targetApi="jelly_bean" />
+
+                <RadioButton
+                    android:id="@+id/india_radio_1"
+                    style="@style/RadioButton"
+                    android:text="@string/india_radio_1"
+                    tools:targetApi="jelly_bean" />
+
+                <RadioButton
+                    android:id="@+id/india_radio_2"
+                    style="@style/RadioButton"
+                    android:text="@string/india_radio_2"
+                    tools:targetApi="jelly_bean" />
+
+                <RadioButton
+                    android:id="@+id/india_radio_3"
+                    style="@style/RadioButton"
+                    android:text="@string/india_radio_3"
+                    tools:targetApi="jelly_bean" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <!-- This is the Brazil section. -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/ImageViewLayout"
+                android:contentDescription="@null"
+                android:src="@drawable/brazil" />
+
+            <TextView
+                style="@style/TitleText"
+                android:text="@string/brazil_title" />
+
+            <TextView
+                style="@style/InfoText"
+                android:text="@string/brazil_info" />
+
+            <TextView
+                style="@style/QuestionText"
+                android:text="@string/brazil_question" />
+
+            <CheckBox
+                android:id="@+id/brazil_checkbox_1"
+                style="@style/CheckBox"
+                android:text="@string/brazil_checkbox_1" />
+
+            <CheckBox
+                android:id="@+id/brazil_checkbox_2"
+                style="@style/CheckBox"
+                android:text="@string/brazil_checkbox_2" />
+
+            <CheckBox
+                android:id="@+id/brazil_checkbox_3"
+                style="@style/CheckBox"
+                android:text="@string/brazil_checkbox_3" />
+
+            <CheckBox
+                android:id="@+id/brazil_checkbox_4"
+                style="@style/CheckBox"
+                android:layout_marginBottom="16dp"
+                android:text="@string/brazil_checkbox_4" />
+
+        </LinearLayout>
+
+        <!-- This is the London section. -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/ImageViewLayout"
+                android:contentDescription="@null"
+                android:src="@drawable/london" />
+
+            <TextView
+                style="@style/TitleText"
+                android:text="@string/london_title" />
+
+            <TextView
+                style="@style/InfoText"
+                android:text="@string/london_info" />
+
+            <TextView
+                style="@style/QuestionText"
+                android:text="@string/london_question" />
+
+            <EditText
+                android:id="@+id/london_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:textColorHint="#757575"
+                android:hint="@string/answer_hint"
+                android:inputType="text" />
+
+        </LinearLayout>
+
+        <!-- This is the Australia section. -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/ImageViewLayout"
+                android:contentDescription="@null"
+                android:src="@drawable/australia" />
+
+            <TextView
+                style="@style/TitleText"
+                android:text="@string/australia_title" />
+
+            <TextView
+                style="@style/InfoText"
+                android:text="@string/australia_info" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:orientation="vertical"
+                tools:ignore="RtlSymmetry">
+
+                <TextView
+                    style="@style/QuestionText"
+                    android:text="@string/australian_question"
+                    tools:targetApi="jelly_bean" />
+
+                <RadioButton
+                    android:id="@+id/australian_radio_1"
+                    style="@style/RadioButton"
+                    android:text="@string/australian_radio_1"
+                    tools:targetApi="jelly_bean" />
+
+                <RadioButton
+                    android:id="@+id/australian_radio_2"
+                    style="@style/RadioButton"
+                    android:text="@string/australian_radio_2"
+                    tools:targetApi="jelly_bean" />
+
+                <RadioButton
+                    android:id="@+id/australian_radio_3"
+                    style="@style/RadioButton"
+                    android:text="@string/australian_radio_3"
+                    tools:targetApi="jelly_bean" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <!-- This is the Tanzania section. -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/ImageViewLayout"
+                android:contentDescription="@null"
+                android:src="@drawable/mount_kilimanjaro" />
+
+            <TextView
+                style="@style/TitleText"
+                android:text="@string/tanzania_title" />
+
+            <TextView
+                style="@style/InfoText"
+                android:text="@string/tanzania_info" />
+
+            <TextView
+                style="@style/QuestionText"
+                android:text="@string/tanzania_question" />
+
+            <CheckBox
+                style="@style/CheckBox"
+                android:id="@+id/tanzania_checkbox_1"
+                android:text="@string/tanzania_checkbox_1" />
+
+            <CheckBox
+                style="@style/CheckBox"
+                android:id="@+id/tanzania_checkbox_2"
+                android:text="@string/tanzania_checkbox_2" />
+
+            <CheckBox
+                style="@style/CheckBox"
+                android:id="@+id/tanzania_checkbox_3"
+                android:text="@string/tanzania_checkbox_3" />
+
+            <CheckBox
+                style="@style/CheckBox"
+                android:id="@+id/tanzania_checkbox_4"
+                android:layout_marginBottom="16dp"
+                android:text="@string/tanzania_checkbox_4" />
+
+        </LinearLayout>
+
+        <!-- This is the USA section. -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/ImageViewLayout"
+                android:contentDescription="@null"
+                android:src="@drawable/mountain_rushmore" />
+
+            <TextView
+                style="@style/TitleText"
+                android:text="@string/usa_title" />
+
+            <TextView
+                style="@style/InfoText"
+                android:text="@string/usa_info" />
+
+            <TextView
+                style="@style/QuestionText"
+                android:text="@string/usa_question" />
+
+            <EditText
+                android:id="@+id/usa_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:textColorHint="#757575"
+                android:hint="@string/answer_hint"
+                android:inputType="text" />
+
+        </LinearLayout>
+
+        <!-- This is the Egypt section. -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/ImageViewLayout"
+                android:contentDescription="@null"
+                android:src="@drawable/egypt" />
+
+            <TextView
+                style="@style/TitleText"
+                android:text="@string/egypt_title" />
+
+            <TextView
+                style="@style/InfoText"
+                android:text="@string/egypt_info" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:orientation="vertical"
+                tools:ignore="RtlSymmetry">
+
+                <TextView
+                    style="@style/QuestionText"
+                    android:text="@string/egypt_question"
+                    tools:targetApi="jelly_bean" />
+
+                <RadioButton
+                    android:id="@+id/egyptian_radio_1"
+                    style="@style/RadioButton"
+                    android:text="@string/egypt_radio_1"
+                    tools:targetApi="jelly_bean" />
+
+                <RadioButton
+                    android:id="@+id/egyptian_radio_2"
+                    style="@style/RadioButton"
+                    android:text="@string/egypt_radio_2"
+                    tools:targetApi="jelly_bean" />
+
+                <RadioButton
+                    android:id="@+id/egyptian_radio_3"
+                    style="@style/RadioButton"
+                    android:text="@string/egypt_radio_3"
+                    tools:targetApi="jelly_bean" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <!-- This is the France section. -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/ImageViewLayout"
+                android:contentDescription="@null"
+                android:src="@drawable/france" />
+
+            <TextView
+                style="@style/TitleText"
+                android:text="@string/france_title" />
+
+            <TextView
+                style="@style/InfoText"
+                android:text="@string/france_info" />
+
+            <TextView
+                style="@style/QuestionText"
+                android:text="@string/france_question" />
+
+            <CheckBox
+                style="@style/CheckBox"
+                android:id="@+id/france_checkbox_1"
+                android:text="@string/france_checkbox_1" />
+
+            <CheckBox
+                style="@style/CheckBox"
+                android:id="@+id/france_checkbox_2"
+                android:text="@string/france_checkbox_2" />
+
+            <CheckBox
+                style="@style/CheckBox"
+                android:id="@+id/france_checkbox_3"
+                android:text="@string/france_checkbox_3" />
+
+            <CheckBox
+                style="@style/CheckBox"
+                android:id="@+id/france_checkbox_4"
+                android:layout_marginBottom="16dp"
+                android:text="@string/france_checkbox_4" />
+
+        </LinearLayout>
+
+        <!-- This is the Zimbabwe section. -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/ImageViewLayout"
+                android:contentDescription="@null"
+                android:src="@drawable/victoria_falls" />
+
+            <TextView
+                style="@style/TitleText"
+                android:text="@string/zimbabwe_title" />
+
+            <TextView
+                style="@style/InfoText"
+                android:text="@string/zimbabwe_info" />
+
+            <TextView
+                style="@style/QuestionText"
+                android:text="@string/zimbabwe_question" />
+
+            <EditText
+                android:id="@+id/zimbabwe_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:textColorHint="#757575"
+                android:hint="@string/answer_hint"
+                android:inputType="text" />
+
+        </LinearLayout>
+
+        <!-- This is the Italy section. -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/ImageViewLayout"
+                android:contentDescription="@null"
+                android:src="@drawable/pizza_tower" />
+
+            <TextView
+                style="@style/TitleText"
+                android:text="@string/italy_title" />
+
+            <TextView
+                style="@style/InfoText"
+                android:text="@string/italy_info" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:orientation="vertical"
+                tools:ignore="RtlSymmetry">
+
+                <TextView
+                    style="@style/QuestionText"
+                    android:text="@string/italy_question"
+                    tools:targetApi="jelly_bean"
+                    tools:ignore="TooManyViews" />
+
+                <RadioButton
+                    android:id="@+id/italy_radio_1"
+                    style="@style/RadioButton"
+                    android:text="@string/italy_radio_1"
+                    tools:targetApi="jelly_bean" />
+
+                <RadioButton
+                    android:id="@+id/italy_radio_2"
+                    style="@style/RadioButton"
+                    android:text="@string/italy_radio_2"
+                    tools:targetApi="jelly_bean" />
+
+                <RadioButton
+                    android:id="@+id/italy_radio_3"
+                    style="@style/RadioButton"
+                    android:text="@string/italy_radio_3"
+                    tools:targetApi="jelly_bean" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <!-- This is the Russia section. -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/ImageViewLayout"
+                android:contentDescription="@null"
+                android:src="@drawable/moscow_russia" />
+
+            <TextView
+                style="@style/TitleText"
+                android:text="@string/russia_title" />
+
+            <TextView
+                style="@style/InfoText"
+                android:text="@string/russia_info" />
+
+            <TextView
+                style="@style/QuestionText"
+                android:text="@string/russia_question" />
+
+            <CheckBox
+                style="@style/CheckBox"
+                android:id="@+id/russia_checkbox_1"
+                android:text="@string/russia_checkbox_1" />
+
+            <CheckBox
+                style="@style/CheckBox"
+                android:id="@+id/russia_checkbox_2"
+                android:text="@string/russia_checkbox_2" />
+
+            <CheckBox
+                style="@style/CheckBox"
+                android:id="@+id/russia_checkbox_3"
+                android:text="@string/russia_checkbox_3" />
+
+            <CheckBox
+                style="@style/CheckBox"
+                android:id="@+id/russia_checkbox_4"
+                android:layout_marginBottom="16dp"
+                android:text="@string/russia_checkbox_4" />
+
+        </LinearLayout>
+
+        <!-- This is the England section. -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/ImageViewLayout"
+                android:contentDescription="@null"
+                android:src="@drawable/england" />
+
+            <TextView
+                style="@style/TitleText"
+                android:text="@string/england_title" />
+
+            <TextView
+                style="@style/InfoText"
+                android:text="@string/england_info" />
+
+            <TextView
+                style="@style/QuestionText"
+                android:text="@string/england_question" />
+
+            <EditText
+                android:id="@+id/england_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:textColorHint="#757575"
+                android:hint="@string/answer_hint"
+                android:inputType="text" />
+
+        </LinearLayout>
+
+        <Button
+            style="@style/SubmitButton"
+            android:onClick="submitButton"
+            android:text="@string/submit_button" />
+
+    </LinearLayout>
+
+</ScrollView>
